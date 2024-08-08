@@ -1,17 +1,24 @@
 [profile.default]
 src = "src"
 out = "out"
-libs = ["lib"]
-
-solc="0.8.25"
+libs = [
+    "lib",
+    'node_modules/@layerzerolabs/toolbox-foundry/lib',
+    'node_modules'
+]
+evm_version = 'cancun'
+solc="0.8.23"
 optimizer = true
 optimizer_runs = 2000
 
 fs_permissions = [{ access = "read-write", path = "./deployed.json"}]
 
 [rpc_endpoints]
-sepolia="https://1rpc.io/sepolia"
+sepolia="https://ethereum-sepolia-rpc.publicnode.com"
 base="https://1rpc.io/base"
+polygon="https://1rpc.io/matic"
+mantle="https://rpc.mantle.xyz"
+mantle_sepolia="https://rpc.sepolia.mantle.xyz"
 
 [fmt]
 line_length = 120

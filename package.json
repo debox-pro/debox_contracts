@@ -1,0 +1,23 @@
+{
+  "name": "debox_contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@layerzerolabs/lz-evm-messagelib-v2": "^2.3.34",
+    "@layerzerolabs/lz-evm-protocol-v2": "^2.3.34",
+    "@layerzerolabs/lz-evm-v1-0.7": "^2.3.34",
+    "@layerzerolabs/lz-v2-utilities": "^2.3.34",
+    "@layerzerolabs/oapp-evm": "^0.0.1",
+    "@layerzerolabs/oft-evm": "^0.0.8",
+    "@layerzerolabs/test-devtools-evm-foundry": "^0.2.9",
+    "solidity-bytes-utils": "^0.8.2",
+    "toolbox-foundry": "link:@layerzerolabs/toolbox-foundry"
+  }
+}
